@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+<p align="center"> <img src="public/agenda.png"> </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> <h2>Índice</h2>
 
-## Available Scripts
+<ul>
+	<li>Sobre</li>
+	<li>Tecnologias</li>
+	<li>Um Pouco do Projeto</li>
+	<li>Instalando</li>
+</ul>
 
-In the project directory, you can run:
+## Sobre
+<p align="center"> <img src="src/assets/img/Screenshot - 1.png"> </p>
+<p align="center">  O desenvolvimento desse Planejador de Estudos foi com o intuito de aprender React com TypeScript do zero com Create React App e entender os conceitos de Props, Componentização e State. Além disso, foi aprendido os conceitos de hooks useState e useEffect e como eram usados no class componentes, e finalizando com boas práticas como o DRY(Dont Repeat Yourself) e SRP(Single Responsability Principle). </p>
 
-### `npm start`
+## Tecnologias
+<ul>
+	<li>HTML</li>
+	<li>CSS</li>
+	<li>SCSS</li>
+	<li>TypeScript</li>
+  <li>React</li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Um Pouco do Projeto
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+> ### Adicionando Tarefas
+  <p> O Planejador consegue adicionar quantas tarefas o usuário quiser, e seleciona-las a sua escolha com o tempo determinado. </p>
+  <p align="center"> <img src="src/assets/img/Screenshot - 2.png"> </p>
 
-### `npm test`
+  
+> ### Conclusão
+  <p> Tela mostrando a conclusão de uma tarefa.</p>
+  <p align="center"> <img src="src/assets/img/Screenshot - 3.png"> </p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalando
 
-### `npm run build`
+Para utilizar o projeto é necessário ter o Node.JS na versão LTS.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Este projeto foi inicializado com [Create React App]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  ### Instalando as dependências
+  
+  `npm install`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  ### No diretório do projeto, você pode executar:
 
-### `npm run eject`
+ `npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  Executa o aplicativo no modo de desenvolvimento.\
+  Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
+  
+  A página será recarregada se você fizer edições.\
+  Você também verá alguns erros de lint no console.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  ### Se quiser criar o aplicativo para produção na pasta build:
+  
+  `npm run build`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+   Ele empacota corretamente o React no modo de produção e otimiza a compilação para obter o melhor desempenho.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+   A compilação é minificada e os nomes dos arquivos incluem os hashes.\
+   Seu aplicativo está pronto para ser implantado!
